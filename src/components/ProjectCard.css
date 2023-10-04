@@ -1,0 +1,16 @@
+.projectCard_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    margin: 25px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.projectCard_column{
+    flex: 33.33%;
+    margin: 10px;
+}
+

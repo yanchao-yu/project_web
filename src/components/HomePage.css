@@ -1,0 +1,166 @@
+/* *
+{
+list-style: none;
+padding: 10px 0;
+padding-left: 20px;
+}
+
+.list li:not(:first-child) {
+margin-top: 10px;
+}
+
+a {
+text-decoration: none;
+}
+
+a.cover_link::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+.container {
+padding-left: 32px;
+padding-right: 32px;
+max-width: 80em;
+width: 100%;
+margin: auto;
+}
+
+header {
+padding: 0 20px;
+background-color: lightblue;
+}
+
+header nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header nav ul li {
+display: inline-block;
+height: 80px;
+line-height: 80px;
+margin-left: 10px;
+}
+
+header nav ul li a {
+padding: 10px;
+font-size: 18px;
+color: black;
+border-radius: 4px;
+}
+
+header nav ul li a:hover {
+background-color: lightgray;
+}
+
+header nav .left a {
+color: black;
+font-size: 22px;
+}
+
+.modules_heading {
+margin-top: 20px;
+}
+
+.modules_heading > *:not(:first-child) {
+margin-top: 20px;
+}
+
+.module {
+position: relative;
+padding: 20px;
+border: 1px solid gray;
+margin-top: 20px;
+}
+
+.module > *:not(:first-child),
+.project > *:not(:first-child) {
+margin-top: 20px;
+}
+
+.module_content {
+margin-top: 10px !important;
+}
+
+.module_content button {
+padding: 10px;
+margin-top: 10px;
+margin-right: 10px;
+background-color: transparent;
+border: 1px solid gray;
+outline: none;
+cursor: pointer;
+border-radius: 4px;
+}
+
+.module_content button:hover {
+background-color: lightgray;
+}
+
+.upload_projects {
+padding: 10px;
+margin-right: 10px;
+background-color: transparent;
+border: 1px solid gray;
+outline: none;
+cursor: pointer;
+border-radius: 4px;
+}
+
+.project {
+border: 2px solid black;
+padding: 20px;
+margin-top: 20px;
+}
+
+.project_content > *:not(:first-child) {
+margin-top: 20px;
+}
+
+@media (min-width: 640px) {
+.module_head {
+  display: flex;
+}
+
+.module_head > p {
+  max-width: 20%;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.module_difficulty,
+.project_difficulty {
+  display: flex;
+  align-items: center;
+}
+
+.project_head {
+  display: flex;
+}
+
+.project_head > * {
+  width: 50%;
+}
+
+.project_head > *:not(:last-child) {
+  margin-right: 20px;
+}
+}
+
+@media (max-width: 640px) {
+.module_head > p:not(:first-child),
+.project_head > *:not(:first-child) {
+  margin-top: 10px;
+}
+
+.module_difficulty > div,
+.project_difficulty > div {
+  margin-top: 10px;
+}
+} */
